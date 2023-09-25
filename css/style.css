@@ -1,0 +1,624 @@
+*{
+    margin: 3px;
+    padding: 0;
+}
+/* ------------header---------------- */
+.header{
+    background-color: #F8CB2E;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.header h3{
+    margin-left: 6rem;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+/* -----xxx-------header--end-------xxx------- */
+
+
+.container{
+   position: relative;
+}
+
+/* ------------SubContent start---------------- */
+.subcontent{
+    /* border: 5px solid red; */ 
+}
+.subcontent video{
+    width: 100%;
+    height: 52rem;
+}
+.navbar{
+    background-color: black;
+    width: 99%;
+    height: 7rem;
+    position: absolute;
+    top: 3.7rem;
+    position: fixed;
+    /* visibility: hidden; */
+    z-index: 1;
+}
+#checkbtn{
+  float: right;
+  line-height: 6rem;
+  margin-right: 5rem;
+  font-size: 2rem;
+  display: none;
+}
+#check{
+    display: none;
+}
+.logo{
+    color: white;
+    line-height: 6rem;
+    font-size: 2rem;
+    margin-left: 6rem;
+}
+.navbar ul{
+    float: right;
+   list-style: none;
+   line-height: 6rem;
+   margin-right: 6rem;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    color: white;
+    list-style: none;
+   text-decoration: none;
+   padding: 0.5rem 1.2rem;
+   font-size: 20px;
+  
+}
+.navbar ul li:hover a{
+    color: #EE5007;
+}
+.navbar ul li a.active{
+   color: #EE5007;
+}
+.ticket a{
+    background-color: #EE5007;
+    border-radius: 25px;
+}
+.ticket:hover a{
+    background-color: brown;
+    color: #F0F8FF;
+}
+@media (max-width:1202px){
+   #checkbtn{
+     display: block;
+   }
+   .navbar ul{
+    width: 100%;
+    height: 100%;
+    background-color: #F8CB2E;
+   }
+}
+/* ------xxxx-------sub content end-------xxxx-------- */
+
+/* ------------event schedule start---------------- */
+.eventschedule{
+   
+   position: absolute;
+   top: 8rem;
+    left: 30%;
+}
+.festiva-live h3{
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: white;
+   margin-left:10rem;
+}
+.festiva-live h1{
+    font-weight: 900;
+    font-size: 5rem;
+    color: white;
+}
+.festiva-live button{
+    background-color:#EE5007;
+    border-radius: 25px;
+    font-weight: 900;
+    font-size: 1.1rem;
+    padding: .5rem 1rem;
+    color: white;
+    margin-left: 12rem;
+    margin-top: 4rem;
+}
+.festiva-live:hover button{
+    background-color: brown;
+    color: white;
+}
+.contact-sec{
+    /* border: 2px solid red; */
+     width: 100%;
+    /* height: 2rem;  */
+    justify-content: space-around;
+    display: flex;
+    position: absolute;
+    top: 35rem;
+    
+}
+.clock h5{
+    color: white;
+    font-size: 2rem;
+}
+.location h5{
+    color: white;
+    font-size: 2rem;
+}
+.social-icon ul{
+    display: flex;
+    /* flex-direction: row; */
+    list-style: none;
+    
+}
+
+div>span{
+    font-size: 1.2rem;
+    color: white;
+   
+}
+.sci ul{
+    display: flexs;
+}
+/* ------xxxx------Event schedule end-------xxxx--------- */
+
+/* ------------About section start--------------- */
+.about-section{
+    background-image: url(https://templatemo.com/templates/templatemo_583_festava_live/images/edward-unsplash-blur.jpg);
+    /* position: absolute; */
+    display: flex;
+}
+.content{
+    margin-left: 8rem;
+    margin-top: 7rem;
+}
+.content h2{
+    font-size: 3rem;
+    color: white;
+}
+.content p{
+    font-size: 1.1rem;
+    color: white;
+    padding: 1.5rem 0;
+}
+.content h6{
+    font-size: 2rem;
+    color: white;
+}
+.content-img{
+   
+    margin-top: 3rem;
+    margin-right: 5rem;
+    position: relative;
+   
+}
+.content-img img{
+      
+    border-radius: 30px; 
+}
+.about-text{
+    /* border: 2px solid red;  */
+    border-radius: 25px;
+    width: 35rem;
+    height: 7rem;
+    background-color:white;
+    backdrop-filter: blur(5x) saturated(180%);
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 20rem;
+    left: 1rem;
+}
+.about-text h3{
+    font-size: 2rem;
+}
+.about-text p{
+    font-size: 1.2rem;
+    margin-top: .8rem;
+}
+.textcont{
+  margin-left: 7rem;
+  margin-top: 1rem;
+  
+}
+.about-text a{
+    /* border: 2px solid red; */
+    padding: 1rem;
+    position: absolute;
+    margin-top: 25px;
+}
+/* ------xxxx------About section event-------xxxxxx-------- */
+
+/* --------------------Artist Section-start--------------------- */
+.artist-sec{
+    /* border: 2px solid red; */
+    display: flex;
+   position: relative;
+}
+.intro{
+    /* border: 2px solid blue; */
+    border-radius: 25px;
+    background-color: rgb(255, 255, 33,.5);
+    backdrop-filter: blur(5px);
+    width: 27.5rem;
+    height: 16rem;
+    line-height: 3.5rem;
+    position: absolute;
+    top: 50.5rem;
+    left: 13.5rem;
+    transition: all 1s;
+    opacity: 0;
+    visibility: hidden;
+}
+.left-img:hover .intro{
+    top: 33rem;
+    opacity: 1;
+    visibility: visible;
+}
+.intro p{
+    color: #363a3e;
+    font-size: 1.2rem;
+}
+.intro strong{
+    color: white;
+}
+.intro1{
+    /* border: 2px solid blue; */
+    border-radius: 25px;
+    background-color: rgb(255, 255, 33,.5);
+    backdrop-filter: blur(5px);
+    width: 32.3rem;
+    height: 16rem;
+    line-height: 3.5rem;
+    position: absolute;
+    top: 25.5rem;
+    left: 46.5rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+}
+.img1:hover .intro1{
+    top: 8rem;
+    opacity: 1;
+    visibility:visible ;
+}
+.intro1 p{
+    color: #363a3e;
+    font-size: 1.2rem;
+}
+.intro1 strong{
+    color: white;
+}
+.intro2{
+    /* border: 2px solid blue; */
+    border-radius: 25px;
+    background-color: rgba(244, 244, 23, 0.74);
+    backdrop-filter: blur(5px);
+    width: 32rem;
+    height: 16rem;
+    line-height: 3.5rem;
+    position: absolute;
+    top: 46rem;
+    left: 46.6rem;
+    opacity: 0;
+    transition: all 1s;
+    visibility: hidden;      
+}
+.img2:hover .intro2{
+    top: 29rem;
+    opacity: 1;
+    visibility: visible;
+  
+}
+.intro2 p{
+    color: #363a3e;
+    font-size: 1.2rem;
+}
+.intro2 strong{
+    color: white;
+}
+.sec-content h2{
+    /* border: 2px solid blue; */
+    margin-left: 45%;
+    font-size: 3rem;
+   /* margin-top: 2rem; */
+}
+.artist-img{
+    display: flex;
+    /* border: 2px solid yellow; */
+   margin-left: 12rem;
+  margin-top: 1rem;
+}
+.left-img>img{
+    max-width: 30rem;
+    margin-right: 2rem;
+    
+    border-radius: 25px;
+}
+.img1>img{
+    width:35rem;
+    height: 20rem;
+    border-radius: 25px;
+}
+.img2>img{
+    width:35rem;
+    height: 20rem;
+    border-radius: 25px;
+}
+/* --------xxxxx------------Artist Section-end--------xxxxx------------- */
+
+/* --------------------scedule section-------------------- */
+.schedule-sec{
+    /* border: 2px solid red; */
+    background-image: url(https://templatemo.com/templates/templatemo_583_festava_live/images/nainoa-shizuru-unsplash-blur.jpg);
+}
+.schedule{
+    /* border: 2px solid blue; */
+    color: white;
+   width: 80%;
+   margin-left: 9rem;
+}
+.schedule h1{
+    /* border: 2px solid blue; */
+    font-size: 2.5rem;
+    margin-left: 40%;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    padding-top: 2rem;
+}
+.table-schedule{
+    /* border: 3px solid red; */
+    margin-bottom: 3rem;
+
+}
+.table-schedule th{
+    /* border:2px solid #F8CB2E; */
+}
+td>h3, p{
+    margin-left: 1.5rem;
+}
+.background-image h3,p{
+    /* margin-left: 10.5rem; */
+}
+.plan-sec h2{
+    font-size: 3rem;
+    padding-left: 5rem;
+    padding-top: 5rem;
+    margin-left: 35%;
+}
+.plan-content{
+    /* border: 5px solid red; */
+    background-color: #F0F8FF;
+   display: flex;
+   justify-content: center;
+ 
+}
+.row{
+    display: flex;
+    position: relative;
+}
+.left-cnt{
+    /* border: 5px solid black; */
+    border-radius: 25px;
+    border-style: dashed;
+    width: 40rem;
+    height: 23rem;
+    margin-right: 1rem;
+    
+}
+.cnt{
+    /* border: 2px solid red; */
+    margin: 4rem;
+}
+.list{
+    display: flex;
+    row-gap: 1rem;
+}
+div>li{
+    margin-left: 1.5rem;
+}
+.cnt h3{
+   font-size: 2rem;
+   margin-bottom: .8rem;
+}
+.cnt p{
+   font-size: 1.3rem;
+   color: gray;
+   margin-bottom: 2rem;
+}
+.cnt ul li{
+   font-size: 1.1rem;
+   color: gray;
+   margin-bottom: 1rem;
+}
+.pricing-thumb{
+    /* background-color:orangered; */
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    /* border: 2px solid blue; */
+    position: absolute;
+    left: 31rem;
+    top: 1rem;  
+}
+.pricing-thumb p{
+    /* border: 2px solid blue; */
+    width: 85%;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding-top: 1.5rem;
+    /* padding-right: 1rem; */
+}
+div>a{
+    margin-top: 15rem;
+}
+.right-cnt{
+    border: 5px solid black;
+    border-style: dashed;
+    width: 40rem;
+    height: 25rem;
+    border-radius: 25px;
+}
+/* ----------xxxxxx----------schedule section-end---------xxxxxx---------- */
+
+/* --------------------Form section-------------------- */
+.form-sec{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.contact-form{
+    /* border: 2px solid blue; */
+}
+.contact-form h2{
+   font-size: 3rem;
+   font-family: sans-serif;
+   margin-left: 8rem;
+}
+nav{
+    /* border: 2px solid red; */
+    background-image: linear-gradient(85deg,rgb(204, 224, 231) ,rgb(194, 239, 239),rgb(238, 232, 232));
+    border-radius: 50px;
+   
+}
+nav button{
+   padding: 1rem 2rem;
+   background-color: white;
+   color: yellow;
+   font-size: 1.8rem;
+   font-weight: 900;
+   margin: 1.5rem 2.7rem;
+   border-radius: 35px;
+   
+}
+.map{
+    /* backface-visibility: hidden; */
+   
+}
+.tab-content{
+    /* border: 2px solid red; */
+    box-shadow: 10px 10px 30px 5px rgb(197, 199, 200);
+    margin-top: 3rem;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    height: 30rem;
+}
+.row input{
+    padding: 1.2rem;
+    padding-right: 8rem;
+    margin-left: 1.8rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+div input{
+    border-radius: 15px;
+    padding: 1.2rem;
+    padding-right: 31.5rem;
+    margin-left: 1.8rem;
+    font-size: 1rem;
+}
+/* --------------------Form section--end------------------ */
+
+/* --------------------footer site--start----------------------- */
+
+.site-footer{
+    /* border: 2px solid red; */
+    margin-top: 8rem;
+}
+.site-footer-top{
+    /* border: 2px solid blue; */
+    /* border-radius: 15px; */
+    width: 100%;
+    height: 7rem;
+    background-color: #EE5007;
+    display: flex;
+    justify-content: space-between;
+}
+.site-footer-top h2{
+    font-size: 3rem;
+    padding-left: 5rem;
+    padding-top: 1.5rem;
+    color: white;
+}
+.icon{
+    /* border: 2px solid red; */
+    
+    width: 20%;
+    height: 38%;
+    margin-right: 8rem;
+    margin-top: 2rem;
+   
+}
+.icon ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.footer-content{
+    /* border: 2px solid blue; */
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+  
+}
+.footer-content1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.col-1{
+    /* border: 2px solid red; */
+    width: 35%;
+    height: 35%;
+    line-height: 3rem;
+    margin-top: 4rem;
+  
+}
+.col-1 ul{
+    display: flex;
+   justify-content: space-between;
+}
+.col-1 ul a{
+    /* display: flex; */
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.col-2{
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 35%;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
+
+
+.col-3{
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 35%;
+    line-height: 3rem;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+}
+.copyR{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 60%;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    justify-content: space-around;
+    
+}
+.copyR h2{
+   color: white;
+   font-size:medium;
+
+}
+/* -----xxx-----footer site------xxx----- */
